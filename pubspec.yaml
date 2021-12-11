@@ -66,6 +66,9 @@ flutter:
     - assets/images/powfu_album3.jpg
     - assets/images/powfu_album4.jpeg
     - assets/images/powfu_cover1.jpg
+    - assets/images/powfu_album1.jpg
+    - assets/images/powfu_album4.jpg
+    - assets/images/powfu_album5.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

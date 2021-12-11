@@ -9,7 +9,7 @@ class songs extends StatelessWidget {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Container(
-      height: 350,
+      height: 300,
       width: size.width,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -42,7 +42,10 @@ class songs extends StatelessWidget {
                             Icons.check_circle,
                              size: 16, color: Colors.grey
                           )
-                        : const Text(''),
+                        : const Icon(
+                            Icons.explicit,
+                             size: 17, color: Colors.grey
+                          ),
                        const  SizedBox( width: 8,),
                         Text(
                           topSongs[index]['artist'],
