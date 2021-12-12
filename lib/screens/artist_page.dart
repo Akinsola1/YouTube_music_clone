@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
@@ -5,7 +7,9 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:youtube_music_clone/widget/albums.dart';
+import 'package:youtube_music_clone/widget/featured_on.dart';
 import 'package:youtube_music_clone/widget/latest_release.dart';
+import 'package:youtube_music_clone/widget/recomended_artist.dart';
 import 'package:youtube_music_clone/widget/singles.dart';
 import 'package:youtube_music_clone/widget/songs.dart';
 
@@ -169,29 +173,96 @@ class artist_page extends StatelessWidget {
                         height: 30,
                       ),
                       Row(
-                        children:const [
+                        children: const [
                           Text(
                             'Singles',
                             style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 28,
-                              fontWeight: FontWeight.bold
-                            ),
+                                color: Colors.white,
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold),
                           ),
                           Spacer(),
                           Text(
                             'SEE ALL',
-                            style: TextStyle(
-                              color: Colors.grey,
-                              fontSize: 15
-                            ),
+                            style: TextStyle(color: Colors.grey, fontSize: 15),
                           )
                         ],
                       ),
-                    const  SizedBox(
+                      const SizedBox(
                         height: 20,
                       ),
-                     const Singles(),
+                      const Singles(),
+                      const SizedBox(
+                        height: 30,
+                      ),
+                      Row(
+                        children: const [
+                          Text(
+                            'Featured on',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 28,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      const FeaturedOn(),
+                      const SizedBox(
+                        height: 30,
+                      ),
+                      Row(
+                        children: const [
+                          Text(
+                            'Fans might also like',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 28,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      const RecommendedArtist(),
+                      const SizedBox(
+                        height: 30,
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: const [
+                          Text(
+                            'About',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 28,
+                            ),
+                          ),
+                          Text(
+                            '670,340,416 views',
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 15,
+                            ),
+                          ),
+                          SizedBox(
+                            height: 20
+                          ),
+                          Text(
+                            'Isaiah Fabar, known professionall as powfi, is a Canadian rapper, songwritter, and record producer. He is the son of the Dave Faber from the band Faber Driver. He amassed popularity following the release of his first charting single, "Death BED, chich peaked at number 23 on the Billboard Hot 100. ',
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 15,
+                            ),
+                          )
+                        ],
+                      )
                     ],
                   ),
                 )

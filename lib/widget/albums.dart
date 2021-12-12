@@ -13,7 +13,7 @@ class Album extends StatelessWidget {
         child: Row(
             children: List.generate(albums.length, (index) {
           return Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

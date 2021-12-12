@@ -69,6 +69,36 @@ flutter:
     - assets/images/powfu_album1.jpg
     - assets/images/powfu_album4.jpg
     - assets/images/powfu_album5.jpg
+    - assets/images/random_album1.png
+    - assets/images/random_album2.png
+    - assets/images/random_album3.jpg
+    - assets/images/recomended_artist.jpg
+    - assets/images/recomended_artist1.jpg
+    - assets/images/recomended_artist2.jpg
+    - assets/images/recomended_artist3.jpg
+    - assets/images/random_album4.jpg
+    - assets/images/random_album5.jpeg
+    - assets/images/random_album6.jpg
+    - assets/images/random_album7.jpg
+    - assets/images/yotubemusic_logo.png
+    - assets/images/mix_foryou.jpg
+    - assets/images/mix_foryou1.jpg
+    - assets/images/mix_foryou3.jpg
+    - assets/images/mix_foryou5.jpg
+    - assets/images/mix_foryou4.jpg
+    - assets/images/new_release1.png
+    - assets/images/new_release2.jpeg
+    - assets/images/new_release3.png
+    - assets/images/new_release4.jpg
+    - assets/images/new_release5.jpg
+    - assets/images/new_release6.jpg
+    - assets/images/singles1.jpg
+    - assets/images/singles2.png
+    - assets/images/singles3.jpg
+    - assets/images/singles4.jpg
+    - assets/images/singles5.png
+    - assets/images/singles7.jpg
+    - assets/images/singles8.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

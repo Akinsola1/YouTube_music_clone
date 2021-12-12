@@ -17,7 +17,7 @@ class Singles extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                height: size.height * 0.15,
+                height: size.height * 0.23,
                 width: size.width * 0.4,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(6),
