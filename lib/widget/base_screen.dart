@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:youtube_music_clone/screens/artist_page.dart';
+import 'package:youtube_music_clone/screens/homepage.dart';
 class base_screen extends StatefulWidget {
   const base_screen({Key? key}) : super(key: key);
 
@@ -13,6 +14,7 @@ class _base_screenState extends State<base_screen> {
   // bottom navigation bar
   int _selectedIndex = 0;
   static const List<Widget> _widgetOptions = <Widget>[
+    Homepage(),
     artist_page(),
   ];
   @override
