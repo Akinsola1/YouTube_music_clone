@@ -23,6 +23,18 @@ flutter pub get
 flutter run
 ```
 # Screenshots
+
+### Home page
+![Screenshot from 2021-12-14 00-15-49](https://user-images.githubusercontent.com/68930312/145962926-5c241bb5-b68a-4f95-9e56-9b6a3e531191.png), 
+
+![Screenshot_1639437435](https://user-images.githubusercontent.com/68930312/145963015-8ef157a8-5776-488d-a6b0-c631fe618b27.png)
+
+
+![Screenshot from 2021-12-14 00-16-44](https://user-images.githubusercontent.com/68930312/145963216-fece3669-ece9-47aa-aafe-c5d48db10ffa.png)
+
+![Screenshot_1639437424](https://user-images.githubusercontent.com/68930312/145963855-89df267b-98d4-4a7c-83af-417df24d48d7.png)
+
+
 ### Artist page
 
 ![Screenshot from 2021-12-12 00-28-32](https://user-images.githubusercontent.com/68930312/145695415-b0967e84-9cf3-41fb-bb59-9bc51562d136.png)
