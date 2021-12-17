@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:line_icons/line_icons.dart';
-import 'package:youtube_music_clone/screens/artist_page.dart';
+import 'package:youtube_music_clone/screens/explore.dart';
 import 'package:youtube_music_clone/screens/homepage.dart';
+import 'package:youtube_music_clone/screens/library.dart';
 class base_screen extends StatefulWidget {
   const base_screen({Key? key}) : super(key: key);
 
@@ -15,10 +15,12 @@ class _base_screenState extends State<base_screen> {
   int _selectedIndex = 0;
   static const List<Widget> _widgetOptions = <Widget>[
     Homepage(),
-    artist_page(),
+    Explore(),
+    Library(),
   ];
   @override
   Widget build(BuildContext context) {
+    var size = MediaQuery.of(context).size;
     return Scaffold(
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),

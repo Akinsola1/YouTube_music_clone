@@ -210,7 +210,7 @@ List single = [
     "artist": "Bruno Mars",
   },
   {
-     "title": "Sinner",
+    "title": "Sinner",
     "artist": "Single • Adekunle Gold",
     "isDownloaded": true,
     "image_cover": "assets/images/new_release5.jpg",
@@ -248,5 +248,37 @@ List singles2 = [
     "year": "2021",
     "image_cover": "assets/images/powfu_album4.jpeg",
     "isDownloaded": false,
+  },
+];
+
+List night_music = [
+  {
+    "artist": "Powfu",
+    "image_cover": "assets/images/recomended_artist3.jpg",
+  },
+  {
+    "image_cover": "assets/images/singles1.jpg",
+    "title": "Try",
+    "isDownloaded": false,
+    "artist": "Lil kesh",
+  },
+  {
+    "title": "Paralyzed",
+    "artist": "NF",
+    "isDownloaded": true,
+    "image_cover": "assets/images/new_release6.jpg",
+  },
+  {
+    "album" : true,
+    "isDownloaded": true,
+    "title": "Back in office",
+    "artist": "Mayorkun",
+    "image_cover": "assets/images/new_release2.jpeg",
+  },
+  {
+    "title": "Holy father",
+    "isDownloaded": false,
+    "artist": "Mayorkun",
+    "image_cover": "assets/images/new_release3.png",
   },
 ];

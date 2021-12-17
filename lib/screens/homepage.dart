@@ -10,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:youtube_music_clone/widget/general_new_release.dart';
 import 'package:youtube_music_clone/widget/mixed_for_you.dart';
 import 'package:youtube_music_clone/widget/music_options.dart';
+import 'package:youtube_music_clone/widget/night_time.dart';
 import 'package:youtube_music_clone/widget/quickpick.dart';
 
 class Homepage extends StatelessWidget {
@@ -140,6 +141,37 @@ class Homepage extends StatelessWidget {
               ),
             ),
             QuickPick(),
+          const  SizedBox(
+              height: 20
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: const [
+                  Text(
+                    'LISTEN AGAIN',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontWeight: FontWeight.w400,
+                      fontSize: 15,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text(
+                    'Your night-time music',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 28,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          const  Nighttime()
             ],
           ),
         ));
