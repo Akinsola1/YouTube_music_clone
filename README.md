@@ -29,10 +29,10 @@ flutter run
 
 ![Screenshot_1639437435](https://user-images.githubusercontent.com/68930312/145963015-8ef157a8-5776-488d-a6b0-c631fe618b27.png)
 
+### Currently playing
+![Screenshot from 2021-12-17 01-01-57](https://user-images.githubusercontent.com/68930312/146466758-8fef1c25-230a-467f-b969-9baf21920460.png)
 
-![Screenshot from 2021-12-14 00-16-44](https://user-images.githubusercontent.com/68930312/145963216-fece3669-ece9-47aa-aafe-c5d48db10ffa.png)
-
-![Screenshot_1639437424](https://user-images.githubusercontent.com/68930312/145963855-89df267b-98d4-4a7c-83af-417df24d48d7.png)
+![Screenshot_1639699032](https://user-images.githubusercontent.com/68930312/146466883-8de9b946-cfab-40f5-a4d7-87a11c39c67d.png)
 
 
 ### Artist page
@@ -47,13 +47,6 @@ flutter run
 ![Screenshot from 2021-12-12 00-51-32](https://user-images.githubusercontent.com/68930312/145695435-3704b621-519e-444a-9502-f91a8f88e2fd.png)
 
 ![Screenshot_1639266771](https://user-images.githubusercontent.com/68930312/145695485-6c5afef9-3eaa-4cca-accd-3ee172b89cca.png)
-
-# Featured on & About
-
-![Screenshot from 2021-12-12 00-55-05](https://user-images.githubusercontent.com/68930312/145695505-e0d5d94c-5d57-44b9-bd7f-9f9653700199.png)
-
-![Screenshot_1639266810](https://user-images.githubusercontent.com/68930312/145695517-4d534fb0-809d-46e9-8728-4217b8ce5670.png)
-
 
 ## More updates coming soon....
 
